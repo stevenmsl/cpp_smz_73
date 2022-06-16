@@ -21,8 +21,11 @@ using namespace std;
     and the first col from the original matrix
 
   - we need to remember if we need to set additional
-    1's to zero in the first row and first col before
-    using them as a placeholder
+    1's to zero both in the first row andin the first
+    col before using them as a placeholder
+
+  - Time complexity: O(mn)
+    Space complexity: O(m+n)
 
 */
 
